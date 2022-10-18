@@ -1,0 +1,76 @@
+div.is-hidden {
+    display: none;
+}
+div.is-visible {
+    display: block;
+}
+body {
+    text-align: center;
+    user-select: none;
+}
+h1{
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    color: #336633;
+}
+h2{
+    padding: 26px;
+    margin: auto;
+}
+p{
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    font-weight: bold;
+    color: #336633;
+}
+#start:hover{
+    background: #336633;
+    color: white;
+    cursor: pointer;
+}
+#start2:hover{
+    background: #336633;
+    color: white;
+    cursor: pointer;
+}
+#start3:hover{
+    background: #336633;
+    color: white;
+    cursor: pointer;
+}
+#start4:hover{
+    background: #336633;
+    color: white;
+    cursor: pointer;
+}
+#game{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+    align-content:stretch;
+    width: 400px;
+}
+#game.pointer-none{
+    pointer-events: none;
+}
+.field {
+    width:100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    color: #336633;
+    border: solid 2px #336633;
+    border-radius: 5px;
+}
+.field:hover {
+    background: #336633;
+    cursor: pointer;
+}
+#top{
+    height: 25%;
+}
