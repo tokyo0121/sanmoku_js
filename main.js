@@ -26,8 +26,7 @@ const win_patterns = [
 
 init();
 function init() {
-    start.addEventListener('click', playingfirst, false);
-    start2.addEventListener('click', playingsecond, false);
+  player();
 }
 
 function changescene(hiddenscene, visiblescene) {
@@ -35,18 +34,6 @@ function changescene(hiddenscene, visiblescene) {
     hiddenscene.classList.remove("is-visible");
     visiblescene.classList.add("is-visible");
     visiblescene.classList.remove("is-hidden");
-}
-
-function playingfirst() {
-    changescene(scenetop, scecedisplay);
-    player();
-}
-function playingsecond() {
-    changescene(scenetop, scecedisplay);
-    count = 3;
-    turn.textContent = "コンピューターの番です";
-    com();
-    player()
 }
 
 function turn_action() {
